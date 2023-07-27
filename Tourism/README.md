@@ -87,19 +87,20 @@ Note: Be sure to merge this branch into `main`!
 Edit this file with your answers.
 
 1. What is the difference between `POST` and `PUT`?
-	* < Your answer >  
+	* < Post creates a new record that is added in the DB, while PUT makes an update to an already existing record >  
 
 2. What is the purpose of `ViewData`?
-	* < Your answer >  
+	* < ViewData acts like a dictory and is used to transfer datat from the controller into the view >  
 
 3. If the State model of our Tourism application also has a field for `Region` (e.g. `Midwest`, `South`, etc.), what might the url be if want to filter for States in both the South region and Eastern time zone?
-	* < Your answer >  
+	* < /states?timezone=Eastern&region=Midwest >  
 
 4. What is the purpose of the `.Remove()` method in the controller code? What do we need to pass in as a parameter when calling `.Remove()`?
-	* < Your answer >  
+	* < .remove() is used to delete a record from a database. We need to first find the object that we want to delete and then pass that object into the parameter to delete it >  
 
 5. If you wanted to improve the UI of the State Index page, what would be the filepath of the CSS file you need to create? (Hint: to find the full path of a project file, right-click the file in Solution Explorer and select `Copy Full Path`. You can then paste the path elsewhere.)
-	* < Your answer >  
+	* <C:\Users\ejp39\Source\Repos\Launch_8485\Tourism\Views\States\Index.cshtml.css > 
+	
 
 ## Rubric
 
